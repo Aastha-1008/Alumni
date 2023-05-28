@@ -1,0 +1,79 @@
+.alumniSec {
+  width: 90%;
+  margin: 0rem auto;
+  margin-top: 1.5rem;
+  border: 1px solid rgb(19, 40, 79);
+}
+.alumniSec h1 {
+  background-color: rgb(29, 59, 83);
+  color: white;
+  text-align: center;
+  padding: 0.2rem 0rem;
+}
+.messageSection {
+  height: 30rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid rgb(16, 41, 88);
+  overflow-y: scroll;
+}
+.messagePart {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0rem 1rem 1rem 1rem;
+}
+.Msg input {
+  margin-left: 5rem;
+  width: 130%;
+  height: 2.1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+.sendMsg button {
+  float: right;
+  height: 2rem;
+  width: 8rem;
+  margin-right: 9rem;
+}
+.right {
+  float: right;
+  width: 60%;
+}
+.left {
+  float: left;
+  width: 60%;
+}
+.right p {
+  display: inline-block;
+  float: right;
+  background-color: rgb(34, 59, 98);
+  padding: 0.5rem 1rem;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  border-radius: 10px;
+}
+.left p {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: rgb(28, 96, 110);
+  color: white;
+  font-family: "Libre Franklin", sans-serif;
+  border-radius: 10px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 20px;
+  border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
